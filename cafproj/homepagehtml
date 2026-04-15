@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport"
+        content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" type="text/css"
+        href="homepage.css">
+        <script type="text/JavaScript" src="cafe.js"></script>
+        <title>Cafe</title>
+    </head>
+    <body>
+        <script>
+            alert("welcome to Melting Pot Cafe & Bistro!:>");
+        </script>
+        <div class="sidenav">
+            <img src="logo.jpg" alt="logo" style="width: 150px; height:150px;border: 2px solid black; margin-left: 65px; margin-top: 40px;">
+            <ul class="nobullet">
+            <div class="row2"></div>
+            <li><a class="active" href="#homepage.html">Home</a></li>
+            <div class="row2"></div>
+            <li><a href="Ph.html">Barako Bites and brews</a></li>
+            <div class="row2"></div>
+            <li><a href="Amer.html">Route 66 Snack Shack</a></li>
+            <div class="row2"></div>
+            <li><a href="Jap.html">Tokyo Treats and Tea</a></li>
+            <div class="row2"></div>
+            <li><a href="Kor.html">Seoul-ful Delights & Seoul </a></li>
+            <div class="row2"></div>
+            <li><a href="cafe.html">Cafe</a></li>
+            <div class="row2"></div>
+            </ul>
+        </div>
+        
+    
+                <div class="content">
+               
+                    <h1>Melting Pot Cafe & Bistro</h1> 
+                    <h2>Four in One Cafe</h2>
+         
+                    <p> A melting pot symbolizing the blending of diverse culinary traditions from Philippines, America, Japan and Korea in one cafe. It conveys the concept of a harmonious fusion of flavors and cultures, inviting customers to experience a melting pot of delicious dishes and beverage form around the world.</p>
+                    </div>
+                    <div class="barako">
+                        <img src="logo1.jpg" alt="ph">
+                        <h1>Barako Bites and brews</h1>
+                        <em>A tropical blend of flavors to brighten your day! Savor the vibrant flavors of the philippines in every cup
+                            and dive into a sweet tangy adventure ispired by Philippines.
+                        </em>
+                        </div>
+                        <div class="route">
+                        <img src="logo2.jpg" alt="amer">
+                        <h4>Route 66 Snack Shack</h4>
+                        <em>Indulge in all American beverage and treats! Enjoy freedom in every sip with our American inspired coffee creations 
+                            and classic American snacks to fuel your day of exploration.
+                        </em>
+                    </div>
+                    <div class="tokyo">
+                        <img src="logo3.jpg" alt="jap">
+                        <h5> Tokyo Treats and Tea</h5>
+                        <em> Experience the tranquility of Japanese flavors in every sip!Find peace and harmony in our Japanese inspired drink selection
+                            and indulge in the enchanting flavors of drinks with our delightful pastries.
+                        </em>
+                    </div>
+                    <div class="seoul">
+                        <img src="logo4.jpg" alt="kor">
+                        <h6> Seoul-ful Delights & Seoul </h6>
+                        <em> Experience the tranquility of Japanese flavors in every sip!Find peace and harmony in our Japanese inspired drink selection
+                            and indulge in the enchanting flavors of drinks with our delightful pastries.
+                        </em>
+                    </div>
+                    <footer>
+                        <h10>contact us at:</h10>
+                        <p>contact no:09563551675</p>
+                        <p>gmail: bistrocafee111@gmail.com</p>
+                        <h10>Follow us on Social Media:</h10>
+                        <p>Facebook page: Melting Pot Cafe & Bistro</p>
+                        <p>Twitter:Four in One Cafe</p>
+                        <p>Instagram:mpcafe_b</p>
+                     </footer>
+        </div>
+    </body>
+</html>

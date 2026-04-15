@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Niezl Skye B. De Torres - Web Developer & BSIS Student. I build clean, responsive websites and web applications specializing in modern web solutions, Django/Python backend, and custom web systems." />
+  <title>Niezl Skye B. De Torres — Web Developer Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#">Niezl Skye</a>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button id="themeToggle" class="btn btn-ghost">🌙</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1 class="headline">4th Year BSIS Student & Web Developer</h1>
+          <p class="sub">I build clean, responsive, and user-friendly websites and web applications. Specializing in modern web solutions with responsive design, backend systems (Django/Python), and real-world features like POS systems, inventory management, and online ordering platforms.</p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#projects">View My Work</a>
+            <a class="btn btn-outline" href="#contact">Get in Touch</a>
+          </div>
+        </div>
+        <div class="hero-card" aria-hidden="true">
+          <div class="mock-browser">
+            <div class="mock-top">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+            </div>
+            <div class="mock-body">
+              <svg viewBox="0 0 800 480" preserveAspectRatio="xMidYMid slice">
+                <defs>
+                  <linearGradient id="g" x1="0" x2="1">
+                    <stop offset="0" stop-color="#0ea5e9"/>
+                    <stop offset="1" stop-color="#7c3aed"/>
+                  </linearGradient>
+                </defs>
+                <rect width="100%" height="100%" fill="url(#g)" rx="12"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section container reveal">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <p class="lead">Hi! I'm <strong>Niezl Skye B. De Torres</strong>, a 4th year BSIS student and a web developer focused on building clean, responsive, and user-friendly websites.</p>
+        <p>I specialize in creating modern web solutions that are not only visually appealing but also functional and easy to maintain.</p>
+        <p>I enjoy turning ideas into real, working systems from simple business websites to more complex platforms with features like inventory systems, POS integration, and online ordering.</p>
+        <p>I use technologies such as HTML, CSS, JavaScript, and Django (Python) to develop efficient and scalable web applications.</p>
+        <p>This portfolio also highlights website samples I built for real-world use, including a Filipino catering site, a premium catering concept, resort and travel websites, and a complete coffee shop system.</p>
+        <p>Each project was designed with a specific goal in mind: make the layout clear, the experience easy to use, and the content aligned with the business behind it.</p>
+        
+        <div class="skills-section">
+          <h3>Technologies & Skills</h3>
+          <div class="skills-grid">
+            <div class="skill-category">
+              <h4>Frontend</h4>
+              <ul class="skills">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+            <div class="skill-category">
+              <h4>Backend</h4>
+              <ul class="skills">
+                <li>Python</li>
+                <li>Django</li>
+              </ul>
+            </div>
+            <div class="skill-category">
+              <h4>Tools & Concepts</h4>
+              <ul class="skills">
+                <li>Menu & Content Management</li>
+                <li>Booking & Inquiry Forms</li>
+                <li>Order & POS Flows</li>
+                <li>Dashboard Interfaces</li>
+                <li>Responsive Design</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section container reveal">
+      <h2 class="section-title">What These Samples Show</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">📱</div>
+          <h3>Business Websites</h3>
+          <p>Examples like Kasalo, Cater, and resort sites that present services clearly and professionally.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">⚙️</div>
+          <h3>Web Systems</h3>
+          <p>Functional builds such as the coffee shop system with menu, POS, kitchen, and admin workflows.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">✨</div>
+          <h3>Custom Features</h3>
+          <p>Tailored sections and interactions based on the needs of each sample website or client project.</p>
+        </div>
+      </div>
+      <p class="services-note">Built to showcase real websites with clean structure, clear content, and practical features.</p>
+    </section>
+
+    <section id="projects" class="section projects container reveal">
+      <h2 class="section-title">Highlighted Projects</h2>
+      <div id="projectsGrid" class="projects-grid">
+        <!-- Projects will be loaded dynamically from projects.js -->
+      </div>
+    </section>
+
+    <section id="contact" class="section container reveal">
+      <h2 class="section-title">Let's Work Together</h2>
+      <p>Have a project in mind or want to collaborate? I'd love to hear from you! Reach out and let's create something amazing together.</p>
+      <div class="contact-cta">
+        <a href="https://www.facebook.com/zei.744188" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+          <span>📘 Message Me on Facebook</span>
+        </a>
+        <a href="#projects" class="btn btn-outline">View My Projects</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© <strong>Niezl Skye B. De Torres</strong> — Web Developer & BSIS Student</div>
+  </footer>
+
+  <!-- Project modals -->
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-inner">
+      <button id="modalClose" class="modal-close">✕</button>
+      <div id="modalContent" class="modal-content"></div>
+    </div>
+  </div>
+
+  <script src="assets/js/projects.js"></script>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #ccaa66;
+    background-image: url(fave.jpg);
+     background-size: cover;
+     background-position: 50%; 
+     background-attachment: fixed;
+ }
+  main{
+    padding:2rem;
+  }
+ .sidenav{
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+     background-color: gray;
+     border-right: 3px solid rgb(28, 27, 27);
+     border-bottom: 3px solid rgb(12, 12, 12);
+     border-top: 3px solid rgb(18, 18, 18);
+     border-left: 3px solid rgb(15, 15, 15);
+ }
+ ul.nobullet{
+    list-style-type: none;
+    padding: 0;
+ }
+  
+ ul.nobullet li a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+ }
+ ul.nobullet li a:hover{
+    background-color: green;
+ }
+ .content{
+    margin-left: 200px;
+    padding: 20px;
+    border: 5px black;
+    background-image: url(bg5.png) ;
+    position:static;
+ }
+ .content{
+    margin-left: 200px;
+    padding: 20px;
+    border: 5px black;
+ }
+ .content{
+    margin-left: 300px;
+    padding: 2rem;
+    border: 5px black;
+ }.row2{
+    width: 100%;
+    border-top:2px solid #333;
+    margin: 20px 0;    
+   }
+   img{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    max-width: 200px;
+    margin-right: 185px;
+    position: static;
+ }
+ span.coffee1{
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 215px;
+    border: #000000;
+ }
+ span.coffee2{
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 190px;
+ 
+ }
+ span.coffee3{
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 120px;
+ 
+ }
+ .row1{
+    width: 100%;
+    border-top:10px solid #333;
+    margin: 20px 0;    
+   }
+   span.coffee4{
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 300px;
+   }
+   span.coffee5{
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 220px;
+   }
+   footer{
+    background-image: url("logo.jpg");
+    width: 1150px;
+    background-position: 50%;
+    color:#ffffffd0;
+    font-size: 20;
+    text-align: center;
+    padding: -5rem ;
+    margin-top: auto;
+    margin:20px;
+    margin-left: -25px;
+    position:static;
+    left: 30%;
+ }

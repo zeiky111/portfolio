@@ -1,0 +1,15 @@
+:root{--bg:#071127;--card:#0b1220;--accent:#c084fc}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,system-ui, sans-serif;background:var(--bg);color:#e6eef8}
+.wrap{max-width:960px;margin:0 auto;padding:1rem}
+.demo-nav{border-bottom:1px solid rgba(255,255,255,0.03)}
+.demo-nav h1{margin:0;padding:1rem 0}
+main.wrap{display:grid;grid-template-columns:1fr 320px;gap:1.25rem;padding-top:1rem}
+.items{display:grid;gap:10px}
+.item{background:var(--card);padding:12px;border-radius:10px;display:flex;justify-content:space-between;align-items:center}
+.item .meta{max-width:65%}
+.btn{background:linear-gradient(90deg,#f97316,#f43f5e);border:none;padding:.6rem 1rem;border-radius:10px;color:#fff;cursor:pointer;font-weight:600}
+.cart{background:rgba(255,255,255,0.02);padding:12px;border-radius:10px;position:sticky;top:1rem}
+.cart .total{margin-top:12px;font-weight:700;font-size:1.1rem}
+
+@media(max-width:880px){main.wrap{grid-template-columns:1fr}}

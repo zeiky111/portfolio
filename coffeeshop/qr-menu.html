@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Brew & Bean</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="menu-body">
+    <div class="qr-menu-page">
+        <header class="menu-header">
+            <div class="menu-logo">☕</div>
+            <h1 class="menu-title">Brew & Bean</h1>
+            <p class="menu-subtitle">Premium Coffee & Delights</p>
+        </header>
+
+        <div class="menu-container" id="qrMenuContainer">
+            <!-- Menu items will be loaded here -->
+        </div>
+
+        <section class="qr-code-section">
+            <div class="qr-code-card">
+                <div class="qr-code-title">Scan to Open Menu</div>
+                <div class="qr-code-box" id="qrCode"></div>
+                <div class="qr-code-note">Menu link:</div>
+                <div class="qr-code-url" id="qrCodeUrl"></div>
+            </div>
+        </section>
+
+        <footer class="menu-footer">
+            <p>Scan QR code for latest menu</p>
+            <p class="small-text">Prices and availability subject to change</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="qr-menu.js"></script>
+</body>
+</html>

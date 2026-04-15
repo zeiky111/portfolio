@@ -1,0 +1,146 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color:white;
+    background-image: url(fave.jpg);
+     background-size: cover;
+     background-position: 50%; 
+     background-attachment: fixed;
+ }
+  main{
+    padding:2rem;
+  }
+ .sidenav{
+    width: 300px;
+    height: 100%;
+    position:fixed;
+    top: 0;
+    left: 0;
+     background-color: gray;
+     border-right: 3px solid rgb(28, 27, 27);
+     border-bottom: 3px solid rgb(12, 12, 12);
+     border-top: 3px solid rgb(18, 18, 18);
+     border-left: 3px solid rgb(15, 15, 15);
+ }
+ ul.nobullet{
+    list-style-type: none;
+    padding: 0;
+ }
+  
+ ul.nobullet li a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+ }
+ ul.nobullet li a:hover{
+    background-color: green;
+ }
+  .content{
+     margin-left: 200px;
+     padding: 20px;
+  }
+  .content{
+     margin-left: 200px;
+     padding: 20px;
+     border: 5px black;
+  }
+  .content{
+  background-image: url("shop.jpg");
+  width: 1900px;
+  height:300px ;
+  background-size:cover;
+  background-position: 70%;
+     margin-left: 300px;
+     padding: 2rem;
+     font-family:'Times new Roman';
+     text-align: center ;
+  }
+  .row2{
+    width: 100%;
+    border-top:2px solid #333;
+    margin: 20px 0;    
+   }
+   
+  h1{
+      color: wheat;
+  }
+  h2{
+      color: wheat;
+  }
+  p{
+      color: white;
+      text-align: center;
+      font-size: 30;
+  }
+ .barako{
+    text-align: center;
+    border: 20px solid gray;
+    border-left: 20px gray;
+    background-size:cover;
+  background-position: 70%;
+  margin-left: 300px;
+     padding: 2rem;
+     width: 1900px;
+   }
+   .route{
+    text-align: center;
+    border: 20px solid gray;
+    border-left: 20px gray;
+    background-size:cover;
+  background-position: 70%;
+  margin-left: 300px;
+     padding: 2rem;
+     width: 1900px;
+   }
+   h4{
+    color: black;
+    text-align: center;
+    font-size: 50;
+   }
+   em{
+    font-size: 28;
+   }
+   .tokyo{
+    text-align: center;
+    border: 20px solid gray;
+    border-left: 20px gray;
+    background-size:cover;
+  background-position: 70%;
+  margin-left: 300px;
+     padding: 2rem;
+     width: 1900px;
+   }
+   h5{
+    color: rgba(65, 9, 9, 0.771);
+    text-align: center;
+    font-size: 50;
+   }
+   .seoul{
+    text-align: center;
+    border: 20px solid gray;
+    border-left: 20px gray;
+    background-size:cover;
+  background-position: 70%;
+  margin-left: 300px;
+     padding: 2rem;
+     width: 1900px;
+   }
+   h6{
+    color: wheat;
+    text-align: center;
+    font-size: 50;
+   }
+   footer{
+    background-image: url("logo.jpg");
+    width: 1900px;
+    background-position: 70%;
+    color:#ffffffd0;
+    font-size: 30;
+    text-align: center;
+    padding: 2rem ;
+    margin-top: auto;
+    margin-left: 300px;
+    position:static;
+    left: 30%;
+ }

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="360" viewBox="0 0 600 360">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#f97316"/><stop offset="1" stop-color="#ef4444"/></linearGradient>
+  </defs>
+  <rect width="100%" height="100%" rx="24" fill="#071127"/>
+  <rect x="28" y="28" width="544" height="96" rx="18" fill="url(#g)"/>
+  <rect x="28" y="144" width="200" height="18" rx="9" fill="#e2e8f0" opacity="0.9"/>
+  <rect x="28" y="176" width="320" height="16" rx="8" fill="#94a3b8"/>
+  <rect x="28" y="216" width="544" height="96" rx="18" fill="#0b1220"/>
+  <text x="56" y="88" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700">KASALO.CA</text>
+  <text x="56" y="254" fill="#e2e8f0" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="600">Filipino catering menus</text>
+</svg>

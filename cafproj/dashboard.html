@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Melting Pot Café & Bistro</title>
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/dashboard.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <i class="fas fa-coffee"></i>
+                <span>Melting Pot Café</span>
+            </a>
+            <div class="nav-right">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search items..." id="searchInput">
+                </div>
+                <a href="index.html" class="nav-back"><i class="fas fa-arrow-left"></i> Back</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <h3>Explore</h3>
+        </div>
+        <nav class="sidebar-nav">
+            <a href="#" class="nav-item active" data-category="all">
+                <i class="fas fa-grip-horizontal"></i>
+                <span>All Items</span>
+            </a>
+            <a href="#" class="nav-item" data-category="ph">
+                <i class="fas fa-flag"></i>
+                <span>Barako Bites & Brews</span>
+            </a>
+            <a href="#" class="nav-item" data-category="amer">
+                <i class="fas fa-star"></i>
+                <span>Route 66 Snack Shack</span>
+            </a>
+            <a href="#" class="nav-item" data-category="jap">
+                <i class="fas fa-fan"></i>
+                <span>Tokyo Treats & Tea</span>
+            </a>
+            <a href="#" class="nav-item" data-category="kor">
+                <i class="fas fa-heart"></i>
+                <span>Seoul-ful Delights</span>
+            </a>
+            <a href="#" class="nav-item" data-category="coffee">
+                <i class="fas fa-mug-hot"></i>
+                <span>Coffee Creations</span>
+            </a>
+        </nav>
+
+        <div class="sidebar-footer">
+            <div class="info-card">
+                <i class="fas fa-lightbulb"></i>
+                <p>💡 Pro Tip: Hover over items to see details!</p>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Header -->
+        <div class="content-header">
+            <h1 id="categoryTitle">All Items</h1>
+            <p id="categoryDesc">Discover all our delicious offerings</p>
+        </div>
+
+        <!-- Filters -->
+        <div class="filters">
+            <div class="filter-group">
+                <label for="priceFilter">Price Range:</label>
+                <select id="priceFilter">
+                    <option value="">All Prices</option>
+                    <option value="0-100">0 - 100 pesos</option>
+                    <option value="100-200">100 - 200 pesos</option>
+                    <option value="200+">200+ pesos</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="sortFilter">Sort By:</label>
+                <select id="sortFilter">
+                    <option value="name">Name</option>
+                    <option value="price-low">Price: Low to High</option>
+                    <option value="price-high">Price: High to Low</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Menu Items Grid -->
+        <div class="items-grid" id="itemsGrid">
+            <!-- Items will be populated by JavaScript -->
+        </div>
+
+        <!-- Empty State -->
+        <div class="empty-state" id="emptyState" style="display: none;">
+            <i class="fas fa-search"></i>
+            <h2>No items found</h2>
+            <p>Try adjusting your filters or search query</p>
+        </div>
+    </main>
+
+    <!-- Item Detail Modal -->
+    <div class="modal" id="itemModal">
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <i class="fas fa-image"></i>
+                </div>
+                <div class="modal-info">
+                    <h2 id="modalTitle"></h2>
+                    <p id="modalCategory" class="modal-category"></p>
+                    <p id="modalDescription" class="modal-description"></p>
+                    <div class="modal-meta">
+                        <div class="meta-item">
+                            <span class="label">Price</span>
+                            <span id="modalPrice" class="value"></span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="label">Size</span>
+                            <span id="modalSize" class="value"></span>
+                        </div>
+                    </div>
+                    <div class="modal-actions">
+                        <input type="number" id="quantityInput" min="1" value="1" class="qty-input" placeholder="Qty">
+                        <button class="btn btn-primary" id="addToCartBtn">
+                            <i class="fas fa-shopping-cart"></i> Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/global.js"></script>
+    <script src="js/dashboard.js"></script>
+</body>
+</html>
