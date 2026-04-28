@@ -55,5 +55,21 @@ const projects = [
     externalLink: 'https://zeiky111.github.io/coffee/',
     thumbnail: 'assets/images/coffee-thumb.svg',
     caseStudy: 'A complete coffee shop system branded as Brew & Bean. The project includes a landing page, dashboard, QR menu, order entry, POS system, kitchen display, table management, and admin dashboard for end-to-end cafe operations.'
+  },
+  {
+    id: 8,
+    title: 'Rev – Real Estate Broker',
+    description: 'Professional real estate website for residential, commercial, and investment property services in Las Vegas.',
+    externalLink: 'https://zeiky111.github.io/rev/',
+    thumbnail: 'assets/images/rev-thumb.svg',
+    caseStudy: 'A real estate broker landing page for Art Funding Real Estate. The site showcases residential, commercial, and investment property services with multi-page sections for about, services, contact, and application. Features include local market knowledge positioning, service highlights, and consultation booking integration.'
+  },
+  {
+    id: 9,
+    title: 'Shop',
+    description: 'E-commerce platform with product browsing, shopping cart, and checkout flow.',
+    externalLink: 'https://zeiky111.github.io/shop/',
+    thumbnail: 'assets/images/shop-thumb.svg',
+    caseStudy: 'An e-commerce platform designed for product discovery and purchase. Features include product catalog browsing, shopping cart management, and a streamlined checkout experience.'
   }
 ];
